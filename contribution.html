@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="This is a website to buy your favourite movies"
+    />
+    <title>SquareEyes</title>
+    <link href="src/css/global.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="src/css/index.css" rel="stylesheet" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/js/all.min.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <header>
+      <img
+        class="nav_logo"
+        src="assets/images/SquareEyes_Logo11.png"
+        alt="picture of the website logo"
+      />
+
+      <form>
+        <label for="menu-checkbox" class="hamburger-icon"
+          ><i class="fas fa-bars"></i
+        ></label>
+        <input type="checkbox" id="menu-checkbox" />
+      </form>
+      <!-- får ikke hamburger checkbox koden til å være uten error -->
+
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="movies.html">Movies</a>
+        <a href="contact.html">Contact Us</a>
+        <a href="about-us.html">About Us</a>
+        <a href="contact.html">Recomend a movie</a>
+      </nav>
+    </header>
+
+    <!--front content cards 1 and 2 with buttons-->
+    <main>
+      <section class="logo-center">
+        <img
+          class="logo"
+          src="assets/images/SquareEyes_Logo11.png"
+          alt="picture of the website logo"
+        />
+      </section>
+
+     
+        
+
+      <section class="search-container">
+        <div class="menu">
+          <a href="movies.html">All Movies</a>
+        </div>
+        <label for="search-bar">search bar</label>
+        <input
+          type="text"
+          placeholder="Search a movie..."
+          id="search-bar"
+          label="search bar"
+        />
+        <button href="index.html" type="submit" id="search-button">
+          <i class="fas fa-search"></i>
+        </button>
+      </section>
+
+      <!--contentcards og buttons-->
+
+      
+    </main>
+
+    <!--footer -->
+
+    <footer>
+      <section class="footer-container">
+        <div class="row">
+          <div class="footer-col">
+            <img
+              src="assets/images/SquareEyes_Logo11.png"
+              class="footer-logo"
+              alt="picture of logo"
+            />
+          </div>
+          <hr class="divider" />
+          <div class="footer-col">
+            <h4>Quick Links</h4>
+            <ul class="list">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about-us.html">About Us</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+              <li><a href="contact.html">Recomend a movie</a></li>
+            </ul>
+          </div>
+
+          <hr class="divider" />
+
+          <div class="footer-col">
+            <h4>Follow Us</h4>
+            <ul class="social-list">
+              <li>
+                <a href="index.html" aria-label="instagram link"
+                  ><i class="fa-brands fa-square-instagram"></i
+                ></a>
+              </li>
+              <li>
+                <a href="index.html" aria-label="tik tok link"
+                  ><i class="fa-brands fa-tiktok"></i
+                ></a>
+              </li>
+              <li>
+                <a href="index.html" aria-label="twitter link"
+                  ><i class="fa-brands fa-twitter"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+
+          <hr class="divider" />
+
+          <div class="footer-col">
+            <h4>Newsletter</h4>
+            <p>
+              Sign to our newsletter for movie recommendations, special offers
+              and more!
+            </p>
+            <form action="name">
+              <label for="email-input">Email:</label>
+              <input
+                type="email"
+                placeholder="Your email"
+                id="email-input"
+                class="input-email"
+              />
+              <label for="submit">submit</label>
+              <input
+                type="submit"
+                id="submit"
+                value="signup"
+                class="input-signup"
+              />
+            </form>
+          </div>
+        </div>
+
+        <hr />
+
+        <div class="row">
+          <div class="col">
+            <p>&#169; 2024 SquareEyes. All rights Reserved</p>
+          </div>
+        </div>
+      </section>
+    </footer>
+  </body>
+</html>
