@@ -4,27 +4,85 @@ body {
     padding: 0;
     background-color: #f0f0f0;
 }
-
+ main {
+    display: block;
+ }
 .header-img {
     height: 500px;
     width: 100%;
     
 }
+
+.col {
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+}
 .container {
     display: flex;
     max-width: 1200px;
     margin: 0 auto;
-    background-color: white;
 }
-.main-content {
+
+.main-content-container {
     flex: 2;
     padding: 20px;
 }
-.sidebar {
+.side-bar {
     flex: 1;
-    background-color: #e6f3f5;
+    background-color: #b7f2fb;
     padding: 20px;
 }
+
+
+/* this is test styling to see how it works */
+/* .main-content-container {
+    width: 100%;
+    padding-right: 16px;
+    padding-left: 16px;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -8px;
+    margin-left: -8px;
+}
+.viewport-width {
+    width: 100%;
+}
+.col-12 {
+    -webkit-box-flex: 0;
+    flex: 0 0 100%;
+    max-width: 100%;
+    position: relative
+    padding-right: 8px;
+    padding-left: 8px;
+}
+.main-block-wrapper {
+    background-color: antiquewhite;
+    padding: 2rem 0;
+}
+.container {
+    display: grid;
+    width: 100%;
+    padding-right: 16px;
+    padding-left: 16px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.col {
+    flex-basis: 0;
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    max-width: 100%;
+}
+.main-block {
+    height: 100%;
+    display: flex;
+
+} */
+
+/* this is where the test styling ends */
 h1 {
     font-size: 2.5em;
     margin-bottom: 10px;
@@ -59,6 +117,24 @@ p {
 .hours li {
     margin-bottom: 5px;
 }
+
+.explore-container {
+    display: grid;
+    grid-template-rows: repeat(auto-fill, minmax(15rem, 1fr));
+}
+.explore-cards {
+    padding: 16px;
+    background-color: #0066cc;
+}
+
+
+
+
+
+
+
+
+
 .exhibition-images {
     display: flex;
     flex-wrap: wrap;
@@ -68,11 +144,4 @@ p {
     width: calc(20% - 8px);
     height: 100px;
     object-fit: cover;
-}
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px;
-    margin-top: 20px;
 }
