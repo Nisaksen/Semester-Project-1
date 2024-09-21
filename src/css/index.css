@@ -210,7 +210,7 @@ p {
   transition: transform 0.2s;
 }
 
-.card:hover {
+.exhibition-card:hover {
   transform: translateY(-10px);
 }
 
@@ -240,9 +240,7 @@ p {
   position: relative;
 }
 
-.card-description,
-.price,
-.categories {
+.card-description {
   margin: 5px 10px 5px 10px;
 }
 
