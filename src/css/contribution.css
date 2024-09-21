@@ -1,65 +1,62 @@
+.contribution-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1240px;
+  margin: 0 auto;
+}
 
-  .contribution-card-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    max-width: 1240px;
-    margin: 0 auto;
-  }
-  
-  .contribution-card {
-    background-color: rgb(255, 254, 242);
-    border-radius: 8px;
-    margin: 30px;
-    max-width: 350px;
-    overflow: hidden;
-  }
-  
-  .contribution-card:hover {
-    transform: translateY(-10px);
-  }
-  
-  
-  .contribution-content-card {
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-    flex-grow: 1;
-  }
-  
-  .card-title {
-    font-size: 24px;
-    margin: 10px 10px 10px 10px;
-  }
-  
-  .card-description {
-    font-size: 16px;
-    color: black;
-    flex-grow: 1;
-    position: relative;
-  }
-  
-  .card-description {
-    margin: 5px 10px 5px 10px;
-  }
-  
-  .buttons a {
-    display: inline-block;
-    color: #ffffff;
-    padding: 10px 20px;
-    border-radius: 20px;
-    text-decoration: none;
-    font-size: 16px;
-    margin-left: auto;
-    align-self: flex-end;
-  }
-  
-  .card-button-view {
-    border: 2px solid #dddddda8;
-    background-color: orange;
-  }
-  
-  .buttons a:hover {
-    background-color: var(--color-tertiary);
-  }
-  
+.contribution-card {
+  background-color: rgb(255, 254, 242);
+  border-radius: 8px;
+  margin: 30px;
+  max-width: 350px;
+  overflow: hidden;
+}
+
+.contribution-card:hover {
+  transform: translateY(-10px);
+}
+
+.contribution-content-card {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  flex-grow: 1;
+}
+
+.card-title {
+  font-size: 24px;
+  margin: 10px 10px 10px 10px;
+}
+
+.card-description {
+  font-size: 16px;
+  color: black;
+  flex-grow: 1;
+  position: relative;
+}
+
+.card-description {
+  margin: 5px 10px 5px 10px;
+}
+
+.buttons a {
+  display: inline-block;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 16px;
+  margin-left: auto;
+  align-self: flex-end;
+}
+
+.card-button-view {
+  border: 2px solid #dddddda8;
+  background-color: orange;
+}
+
+.buttons a:hover {
+  background-color: var(--color-tertiary);
+}
