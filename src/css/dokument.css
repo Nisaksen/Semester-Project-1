@@ -45,7 +45,23 @@ body {
     padding: 20px;
     margin-left: 250px;
 }
-h2 {
+
+.text-container {
+    border-top: 2px solid #0066cc;
+    padding-top: 20px;
+}
+
+.dokument-text {
+    max-width: 675px;
+    font-size: 20px;
+    max-width: 700px;
+    text-align: left;
+    line-height: 25px;
+    margin: 15px 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  h2 {
     font-size: 24px;
     margin-bottom: 10px;
 }
@@ -64,21 +80,6 @@ h4 {
     color: #666;
     margin-bottom: 20px;
 }
-.text-container {
-    border-top: 2px solid #0066cc;
-    padding-top: 20px;
-}
-
-.dokument-text {
-    max-width: 675px;
-    font-size: 20px;
-    max-width: 700px;
-    text-align: left;
-    line-height: 25px;
-    margin: 15px 0;
-    margin-left: auto;
-    margin-right: auto;
-  }
 
 hr {
     border: none;
