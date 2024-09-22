@@ -104,6 +104,26 @@ nav a {
   text-decoration: none;
   font-weight: bold;
 }
+.buttons a {
+  display: inline-block;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 16px;
+  margin-left: auto;
+  align-self: flex-end;
+}
+
+.card-button-view {
+  border: 2px solid #000000a8;
+  background-color: orange;
+}
+
+.buttons a:hover {
+  background-color: darkorange;
+}
+
 
 @media (min-width: 880px) {
   nav {
@@ -118,6 +138,7 @@ nav a {
     display: inline-block;
   }
 }
+
 
 @media (max-width: 625px) {
   header {

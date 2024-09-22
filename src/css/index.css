@@ -238,22 +238,3 @@
   margin: 5px 10px 5px 10px;
 }
 
-.buttons a {
-  display: inline-block;
-  color: black;
-  padding: 10px 20px;
-  border-radius: 20px;
-  text-decoration: none;
-  font-size: 16px;
-  margin-left: auto;
-  align-self: flex-end;
-}
-
-.card-button-view {
-  border: 2px solid #dddddda8;
-  background-color: orange;
-}
-
-.buttons a:hover {
-  background-color: darkorange;
-}

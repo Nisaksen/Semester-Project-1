@@ -41,7 +41,7 @@
   
   .card-description {
     font-size: 16px;
-    color: #fff;
+    color: black;
     flex-grow: 1;
     position: relative;
   }
@@ -52,9 +52,9 @@
     margin: 5px 10px 5px 10px;
   }
   
-  .buttons a {
+  /* .buttons a {
     display: inline-block;
-    color: #ffffff;
+    color: black;
     padding: 10px 20px;
     border-radius: 20px;
     text-decoration: none;
@@ -72,4 +72,4 @@
   
   .buttons a:hover {
     background-color: var(--color-tertiary);
-  }
+  } */
