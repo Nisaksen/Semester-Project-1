@@ -1,29 +1,23 @@
-/* global???? */
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f0f0f0;
-}
-/* global???? */
-
-main {
-  display: block;
-}
-/* global???? */
 .header-img img {
   height: 500px;
-  max-width:1500px ;
+  max-width: 1500px;
 }
 /* main .container */
 .main-content-container {
   flex: 2;
   padding: 20px;
 }
-.container {
+.main-container {
   display: flex;
+
   max-width: 1200px;
   margin: 0 auto;
+}
+.main-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 40px;
 }
 .col {
   flex-basis: 0;
@@ -34,19 +28,7 @@ main {
   flex: 1;
   background-color: #b7f2fb;
   padding: 20px;
-}
-
-h1 {
-  font-size: 2.5em;
-  margin-bottom: 10px;
-}
-h2 {
-  color: #333;
-  border-bottom: 1px solid #ccc;
-  padding-bottom: 10px;
-}
-p {
-  line-height: 1.6;
+  min-width: 340px;
 }
 .info-section {
   margin-bottom: 20px;
@@ -99,26 +81,31 @@ p {
   justify-content: space-between;
   align-items: center;
 }
-.for-kids-img,
+.explore-img,
 .description {
   width: 70%;
   padding: 10px;
   background-color: #f9f9f9;
   border-radius: 5px;
 }
-.for-kids-img {
+.explore-img {
   width: 290px;
   height: 420px;
 }
+.description {
+  padding: 20px;
+}
 
 @media (max-width: 768px) {
-  .card-content {
-    flex-direction: column; /* Stack items vertically on smaller screens */
+  .explore-card-content,
+  .main-container,
+  .event-card-container {
+    flex-direction: column;
   }
 
-  .for-kids-img,
+  .explore-img,
   .description {
-    margin-bottom: 10px; /* Add space between the stacked items */
+    margin-bottom: 10px;
   }
 }
 /* explore section */
@@ -126,10 +113,10 @@ p {
 
 .event-card-container {
   display: flex;
-  justify-content: space-between; /* Add space between the cards */
-  align-items: flex-start; /* Align cards at the top */
-  max-width: 1000px; /* Adjust this to fit your design */
-  margin: 0 auto; /* Center the container horizontally */
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 .event-card {
   display: flex;
@@ -148,7 +135,7 @@ p {
 .event-card-middle {
   display: flex;
   flex-direction: column;
-  align-items: center; /* Center the content horizontally */
+  align-items: center;
   background-color: #fff;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
@@ -156,7 +143,7 @@ p {
   max-width: 300px;
   margin: auto;
   text-align: center;
-  margin-top: 60px; /* Pull the middle card higher */
+  margin-top: 60px;
 }
 
 .event-card-image {
@@ -166,9 +153,9 @@ p {
 .event-card-image img {
   width: 200px;
   height: 200px;
-  border-radius: 50%; /* Makes the image circular */
-  object-fit: cover; /* Ensures the image covers the entire area without stretching */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for better visual effect */
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .event-card-content h3 {
@@ -182,12 +169,6 @@ p {
   color: #666;
   line-height: 1.5;
 }
-@media (max-width: 768px) {
-  .event-card-container {
-    grid-template-columns: 1fr; /* One card per row on smaller screens */
-  }
-}
-
 
 /* exhibition section */
 
@@ -250,8 +231,6 @@ p {
   margin: 5px 10px 5px 10px;
 }
 
- 
-
 .buttons a {
   display: inline-block;
   color: #ffffff;
@@ -269,5 +248,5 @@ p {
 }
 
 .buttons a:hover {
-  background-color: var(--color-tertiary);
+  background-color: darkorange;
 }
