@@ -124,7 +124,6 @@ nav a {
   background-color: darkorange;
 }
 
-
 @media (min-width: 880px) {
   nav {
     display: block;
@@ -138,7 +137,6 @@ nav a {
     display: inline-block;
   }
 }
-
 
 @media (max-width: 625px) {
   header {
