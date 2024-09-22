@@ -6,6 +6,7 @@
 .main-content-container {
   flex: 2;
   padding: 20px;
+  padding-bottom: 80px;
 }
 .main-container {
   display: flex;
@@ -57,6 +58,8 @@
 .explore-container {
   display: grid;
   grid-template-rows: repeat(auto-fill, minmax(15rem, 1fr));
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 .explore-wrapper {
   padding: 16px;
@@ -117,11 +120,13 @@
   align-items: flex-start;
   max-width: 1000px;
   margin: 0 auto;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 .event-card {
   display: flex;
   flex-direction: column;
-  align-items: center; /* Center the content horizontally */
+  align-items: center; 
   background-color: #fff;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
@@ -161,12 +166,12 @@
 .event-card-content h3 {
   font-size: 1.5rem;
   margin-bottom: 10px;
-  color: #333;
+  color: #908d8d;
 }
 
 .event-card-content p {
   font-size: 1rem;
-  color: #666;
+  color: #9d9d9d;
   line-height: 1.5;
 }
 
@@ -188,6 +193,8 @@
   justify-content: center;
   max-width: 1240px;
   margin: 0 auto;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 .exhibition-card {
@@ -233,7 +240,7 @@
 
 .buttons a {
   display: inline-block;
-  color: #ffffff;
+  color: black;
   padding: 10px 20px;
   border-radius: 20px;
   text-decoration: none;
